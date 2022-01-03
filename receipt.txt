@@ -1,0 +1,3 @@
+Thank you for using the program!
+You performed1 operations
+Your total will be $1.00

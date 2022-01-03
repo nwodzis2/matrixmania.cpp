@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5350F9F23939E590070BB12 /* identification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350F9D23939E590070BB12 /* identification.cpp */; };
+		B5350FA72393A1490070BB12 /* userstruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FA52393A1490070BB12 /* userstruct.cpp */; };
+		B5350FAA239434C50070BB12 /* interfaceuser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FA8239434C50070BB12 /* interfaceuser.cpp */; };
+		B5350FAD239436130070BB12 /* authentication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FAB239436130070BB12 /* authentication.cpp */; };
+		B5350FB12394424A0070BB12 /* splashscreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FAF2394424A0070BB12 /* splashscreen.cpp */; };
+		B5350FB4239443330070BB12 /* introduction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FB2239443330070BB12 /* introduction.cpp */; };
+		B5350FB8239449750070BB12 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FB6239449750070BB12 /* position.cpp */; };
+		B5350FBB23944A0C0070BB12 /* matrices_pg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FB923944A0C0070BB12 /* matrices_pg.cpp */; };
+		B5350FBE23944A290070BB12 /* edit_pg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FBC23944A290070BB12 /* edit_pg.cpp */; };
+		B5350FC123944A460070BB12 /* operations_pg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FBF23944A460070BB12 /* operations_pg.cpp */; };
+		B5350FC6239454C10070BB12 /* UI_struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FC4239454C10070BB12 /* UI_struct.cpp */; };
+		B5350FD12394A27C0070BB12 /* matrices_select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FCF2394A27C0070BB12 /* matrices_select.cpp */; };
+		B5350FDD2394AB840070BB12 /* matrixclass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FDB2394AB840070BB12 /* matrixclass.cpp */; };
+		B5350FEF239A1A0A0070BB12 /* printrecipet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5350FED239A1A0A0070BB12 /* printrecipet.cpp */; };
 		B547626D23822F7C003C8D61 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B547626C23822F7C003C8D61 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +37,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B5350F9D23939E590070BB12 /* identification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = identification.cpp; path = "matrixmania.cpp/Log-in/identification.cpp"; sourceTree = SOURCE_ROOT; };
+		B5350F9E23939E590070BB12 /* identification.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = identification.hpp; path = "matrixmania.cpp/Log-in/identification.hpp"; sourceTree = SOURCE_ROOT; };
+		B5350FA52393A1490070BB12 /* userstruct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = userstruct.cpp; sourceTree = SOURCE_ROOT; };
+		B5350FA62393A1490070BB12 /* userstruct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = userstruct.hpp; sourceTree = SOURCE_ROOT; };
+		B5350FA8239434C50070BB12 /* interfaceuser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interfaceuser.cpp; sourceTree = "<group>"; };
+		B5350FA9239434C50070BB12 /* interfaceuser.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = interfaceuser.hpp; sourceTree = "<group>"; };
+		B5350FAB239436130070BB12 /* authentication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = authentication.cpp; sourceTree = "<group>"; };
+		B5350FAC239436130070BB12 /* authentication.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = authentication.hpp; sourceTree = "<group>"; };
+		B5350FAF2394424A0070BB12 /* splashscreen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = splashscreen.cpp; sourceTree = SOURCE_ROOT; };
+		B5350FB02394424A0070BB12 /* splashscreen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = splashscreen.hpp; sourceTree = SOURCE_ROOT; };
+		B5350FB2239443330070BB12 /* introduction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = introduction.cpp; sourceTree = "<group>"; };
+		B5350FB3239443330070BB12 /* introduction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = introduction.hpp; sourceTree = "<group>"; };
+		B5350FB6239449750070BB12 /* position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = SOURCE_ROOT; };
+		B5350FB7239449750070BB12 /* position.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = position.hpp; sourceTree = SOURCE_ROOT; };
+		B5350FB923944A0C0070BB12 /* matrices_pg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrices_pg.cpp; sourceTree = "<group>"; };
+		B5350FBA23944A0C0070BB12 /* matrices_pg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrices_pg.hpp; sourceTree = "<group>"; };
+		B5350FBC23944A290070BB12 /* edit_pg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = edit_pg.cpp; sourceTree = "<group>"; };
+		B5350FBD23944A290070BB12 /* edit_pg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = edit_pg.hpp; sourceTree = "<group>"; };
+		B5350FBF23944A460070BB12 /* operations_pg.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = operations_pg.cpp; sourceTree = "<group>"; };
+		B5350FC023944A460070BB12 /* operations_pg.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = operations_pg.hpp; sourceTree = "<group>"; };
+		B5350FC4239454C10070BB12 /* UI_struct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UI_struct.cpp; sourceTree = "<group>"; };
+		B5350FC5239454C10070BB12 /* UI_struct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UI_struct.hpp; sourceTree = "<group>"; };
+		B5350FCF2394A27C0070BB12 /* matrices_select.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrices_select.cpp; sourceTree = "<group>"; };
+		B5350FD02394A27C0070BB12 /* matrices_select.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrices_select.hpp; sourceTree = "<group>"; };
+		B5350FDB2394AB840070BB12 /* matrixclass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrixclass.cpp; sourceTree = "<group>"; };
+		B5350FDC2394AB840070BB12 /* matrixclass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = matrixclass.hpp; sourceTree = "<group>"; };
+		B5350FED239A1A0A0070BB12 /* printrecipet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printrecipet.cpp; sourceTree = "<group>"; };
+		B5350FEE239A1A0A0070BB12 /* printrecipet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = printrecipet.hpp; sourceTree = "<group>"; };
 		B547626923822F7C003C8D61 /* matrixmania.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = matrixmania.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		B547626C23822F7C003C8D61 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +80,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5350FA023939F230070BB12 /* Log-in */ = {
+			isa = PBXGroup;
+			children = (
+				B5350F9D23939E590070BB12 /* identification.cpp */,
+				B5350F9E23939E590070BB12 /* identification.hpp */,
+				B5350FA52393A1490070BB12 /* userstruct.cpp */,
+				B5350FA62393A1490070BB12 /* userstruct.hpp */,
+				B5350FA12393A0AA0070BB12 /* parts */,
+			);
+			path = "Log-in";
+			sourceTree = "<group>";
+		};
+		B5350FA12393A0AA0070BB12 /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				B5350FA8239434C50070BB12 /* interfaceuser.cpp */,
+				B5350FA9239434C50070BB12 /* interfaceuser.hpp */,
+				B5350FAB239436130070BB12 /* authentication.cpp */,
+				B5350FAC239436130070BB12 /* authentication.hpp */,
+			);
+			path = parts;
+			sourceTree = "<group>";
+		};
+		B5350FAE239442290070BB12 /* introduction */ = {
+			isa = PBXGroup;
+			children = (
+				B5350FAF2394424A0070BB12 /* splashscreen.cpp */,
+				B5350FB02394424A0070BB12 /* splashscreen.hpp */,
+				B5350FB2239443330070BB12 /* introduction.cpp */,
+				B5350FB3239443330070BB12 /* introduction.hpp */,
+			);
+			path = introduction;
+			sourceTree = "<group>";
+		};
+		B5350FB5239443BF0070BB12 /* MainUserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				B5350FB6239449750070BB12 /* position.cpp */,
+				B5350FB7239449750070BB12 /* position.hpp */,
+				B5350FED239A1A0A0070BB12 /* printrecipet.cpp */,
+				B5350FEE239A1A0A0070BB12 /* printrecipet.hpp */,
+				B5350FC4239454C10070BB12 /* UI_struct.cpp */,
+				B5350FC5239454C10070BB12 /* UI_struct.hpp */,
+				B5350FC22394521A0070BB12 /* screens */,
+				B5350FC7239486C90070BB12 /* matrix interface */,
+			);
+			path = MainUserInterface;
+			sourceTree = "<group>";
+		};
+		B5350FC22394521A0070BB12 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				B5350FB923944A0C0070BB12 /* matrices_pg.cpp */,
+				B5350FBA23944A0C0070BB12 /* matrices_pg.hpp */,
+				B5350FBC23944A290070BB12 /* edit_pg.cpp */,
+				B5350FBD23944A290070BB12 /* edit_pg.hpp */,
+				B5350FBF23944A460070BB12 /* operations_pg.cpp */,
+				B5350FC023944A460070BB12 /* operations_pg.hpp */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		B5350FC7239486C90070BB12 /* matrix interface */ = {
+			isa = PBXGroup;
+			children = (
+				B5350FCF2394A27C0070BB12 /* matrices_select.cpp */,
+				B5350FD02394A27C0070BB12 /* matrices_select.hpp */,
+			);
+			path = "matrix interface";
+			sourceTree = "<group>";
+		};
+		B5350FC8239487270070BB12 /* Matrix operations */ = {
+			isa = PBXGroup;
+			children = (
+				B5350FDB2394AB840070BB12 /* matrixclass.cpp */,
+				B5350FDC2394AB840070BB12 /* matrixclass.hpp */,
+			);
+			path = "Matrix operations";
+			sourceTree = "<group>";
+		};
 		B547626023822F7C003C8D61 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +180,10 @@
 			isa = PBXGroup;
 			children = (
 				B547626C23822F7C003C8D61 /* main.cpp */,
+				B5350FC8239487270070BB12 /* Matrix operations */,
+				B5350FB5239443BF0070BB12 /* MainUserInterface */,
+				B5350FAE239442290070BB12 /* introduction */,
+				B5350FA023939F230070BB12 /* Log-in */,
 			);
 			path = matrixmania.cpp;
 			sourceTree = "<group>";
@@ -119,7 +245,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5350FC6239454C10070BB12 /* UI_struct.cpp in Sources */,
+				B5350FD12394A27C0070BB12 /* matrices_select.cpp in Sources */,
+				B5350FBE23944A290070BB12 /* edit_pg.cpp in Sources */,
+				B5350FB12394424A0070BB12 /* splashscreen.cpp in Sources */,
 				B547626D23822F7C003C8D61 /* main.cpp in Sources */,
+				B5350FBB23944A0C0070BB12 /* matrices_pg.cpp in Sources */,
+				B5350FEF239A1A0A0070BB12 /* printrecipet.cpp in Sources */,
+				B5350FB8239449750070BB12 /* position.cpp in Sources */,
+				B5350FAA239434C50070BB12 /* interfaceuser.cpp in Sources */,
+				B5350FAD239436130070BB12 /* authentication.cpp in Sources */,
+				B5350FDD2394AB840070BB12 /* matrixclass.cpp in Sources */,
+				B5350FB4239443330070BB12 /* introduction.cpp in Sources */,
+				B5350F9F23939E590070BB12 /* identification.cpp in Sources */,
+				B5350FC123944A460070BB12 /* operations_pg.cpp in Sources */,
+				B5350FA72393A1490070BB12 /* userstruct.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
